@@ -353,8 +353,7 @@ class MetaBox(type):
                     elif name.startswith("set_"):
                         setter[slot] = klass.dict[name]
 
-        from sets import Set
-        for key in Set(getter.keys() + setter.keys()):
+        for key in set(getter.keys() + setter.keys()):
             setattr(klass, key, property(getter.get(key), setter.get(key)))
                     
 
