@@ -1,0 +1,9 @@
+MANIFEST.in
+common_setup.py
+ez_setup.py
+setup.py
+strongbox.py
+strongbox.egg-info/PKG-INFO
+strongbox.egg-info/SOURCES.txt
+strongbox.egg-info/dependency_links.txt
+strongbox.egg-info/top_level.txt
