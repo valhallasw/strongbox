@@ -2,7 +2,6 @@
 strongbox: smart data classes
 """
 from types import StringType, LambdaType, ListType, NoneType
-import narrative as narr
 import re
 import unittest
 import warnings
